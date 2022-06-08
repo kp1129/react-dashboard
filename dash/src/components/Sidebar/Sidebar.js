@@ -21,15 +21,19 @@ function Sidebar() {
 
         {/* menu */}
         <div className='menu'>
-            {SidebarData.map( (item, index) => (
-                <div 
-                onClick={() => setSelected(index)}
-                className={selected === index ? "menu-item active" : "menu-item"} 
-                key={item.heading}>
-                    <div><item.icon/></div>
-                    <span>{item.heading}</span>
-                </div>
-            ))}
+            {SidebarData.map( (item, index) => {
+                const MenuItemIcon = item.icon;
+
+                return (
+                    <div onClick={() => setSelected(index)}
+                    className={selected === index ? "menu-item active" : "menu-item"} 
+                    key={item.heading}>
+                        <div>
+                            <MenuItemIcon />
+                        </div>
+                        <span>{item.heading}</span>
+                    </div>
+            )})}
             {/* sign out */}
             <div className='menu-item'>
                 <div><UilSignOutAlt /></div>

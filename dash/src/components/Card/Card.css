@@ -1,0 +1,66 @@
+.compact-card {
+    display: flex;
+    flex: 1;
+    height: 11rem !important;
+    border-radius: 0.7rem;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.compact-card:hover {
+    box-shadow: none !important;
+}
+
+.radial-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* align-items: center; */
+    gap: 1rem;
+    flex: 1;
+}
+
+.CircularProgressbar {
+    width: 5rem !important;
+    overflow: visible;
+}
+
+.CircularProgressbar-path {
+    stroke: #fff !important;
+    stroke-width: 12px !important;
+    filter: drop-shadow(2px 4px 6px #fff)
+}
+
+.CircularProgressbar-trail {
+    display: none;
+}
+
+.CircularProgressbar-text {
+    fill: #fff !important;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* .radial-bar>span {
+    font-size: 1.5rem;
+    font-weight: bold;
+} */
+
+.card-info {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.card-info>span:nth-child(2) {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.card-info>span:nth-child(3) {
+    font-size: 1.2rem;
+}
