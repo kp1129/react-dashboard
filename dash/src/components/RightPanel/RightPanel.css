@@ -1,0 +1,7 @@
+.right-panel {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+    /* justify-content: space-evenly; */
+}

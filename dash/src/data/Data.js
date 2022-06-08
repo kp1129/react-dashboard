@@ -8,6 +8,10 @@ import {
     UilMoneyWithdrawal
 } from '@iconscout/react-unicons';
 
+import img1 from '../images/img1.png';
+import img2 from '../images/img2.png';
+import img3 from '../images/img3.png'
+
 export const SidebarData = [
     {
         icon: UilEstate,
@@ -81,3 +85,24 @@ export const CardsData = [
         ]
     }
 ];
+
+export const UpdatesData = [
+    {
+      img: img1,
+      name: "Andrew Pinkman",
+      noti: "has ordered 85\" Class QN90A Samsung Neo QLED 4K Smart TV.",
+      time: "25 seconds ago",
+    },
+    {
+      img: img2,
+      name: "James Schmidt",
+      noti: "has received M2 MacBook Pro 13\"",
+      time: "30 minutes ago",
+    },
+    {
+      img: img3,
+      name: "Irene Wolf",
+      noti: "has ordered Apple watchOS9, Samsung Gear 2500mh battery.",
+      time: "2 hours ago",
+    },
+  ];
