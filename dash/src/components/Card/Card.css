@@ -1,7 +1,8 @@
 .compact-card {
     display: flex;
-    flex: 1;
+    /* flex: 1; */
     height: 11rem !important;
+    width: 22rem;
     border-radius: 0.7rem;
     color: #fff;
     position: relative;
@@ -63,4 +64,40 @@
 
 .card-info>span:nth-child(3) {
     font-size: 1.2rem;
+}
+
+.expanded-card {
+    position: absolute;
+    width: 60%;
+    height: 70vh;
+    z-index: 9;
+    left: 13rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.expanded-card-cancel {
+    align-self: flex-end;
+    cursor: pointer;
+    color: #fff;
+}
+
+.expanded-card>span:nth-of-type(1) {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 0px 0px 15px #fff;
+}
+
+.expanded-card>span:nth-of-type(2) {
+    color: rgb(244, 243, 243);
+    font-size: 1.5rem;
+}
+
+.expanded-chart {
+    width: 70%;
 }
