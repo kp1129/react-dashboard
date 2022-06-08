@@ -1,16 +1,16 @@
 import React from 'react'
 import CardContainer from '../CardContainer/CardContainer'
+import Table from '../Table/Table'
 import './MainDash.css'
 
 function MainDash() {
   return (
     <div className='main-dash'>
-        <h1>Dashboard</h1>
-
-        {/* cards */}
+        {/* info cards */}
         <CardContainer />
 
         {/* recent orders */}
+        <Table />
     </div>
   )
 }

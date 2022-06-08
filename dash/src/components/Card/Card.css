@@ -1,13 +1,13 @@
 .compact-card {
     display: flex;
     /* flex: 1; */
-    height: 11rem !important;
-    width: 22rem;
+    height: 15rem !important;
+    width: 30rem;
     border-radius: 0.7rem;
     color: #fff;
     position: relative;
     cursor: pointer;
-    padding: 1rem;
+    padding: 2rem 4rem;
 }
 
 .compact-card:hover {
@@ -18,13 +18,12 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    /* align-items: center; */
+    align-items: center;
     gap: 1rem;
-    flex: 1;
 }
 
 .CircularProgressbar {
-    width: 5rem !important;
+    width: 7rem !important;
     overflow: visible;
 }
 
@@ -44,10 +43,11 @@
     font-weight: bold;
 }
 
-/* .radial-bar>span {
+.radial-bar>span {
     font-size: 1.5rem;
     font-weight: bold;
-} */
+    margin-top: 1rem;
+}
 
 .card-info {
     display: flex;
@@ -55,6 +55,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
+   
 }
 
 .card-info>span:nth-child(2) {
@@ -69,9 +70,9 @@
 .expanded-card {
     position: absolute;
     width: 60%;
-    height: 70vh;
+    height: 60vh;
     z-index: 9;
-    left: 13rem;
+    left: 14%;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -99,5 +100,5 @@
 }
 
 .expanded-chart {
-    width: 70%;
+    width: 60%;
 }

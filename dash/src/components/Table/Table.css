@@ -1,0 +1,26 @@
+.MuiTableRow-root>* {
+    padding: 1.5rem !important;
+}
+
+.MuiTableRow-root.MuiTableRow-head>* {
+    font-weight: bold !important;
+    font-size: 1.25rem;
+}
+
+.table td, th {
+    border-bottom: 1px dashed rgb(234, 234, 234) !important;
+    font-size: 1.25rem !important;
+}
+
+.table>h2 {
+    margin: 1.5rem 0;
+}
+
+.table:first-child {
+    border-radius: 0.7rem !important;
+}
+
+.status {
+    padding: 8px;
+    border-radius: 9px;
+}
