@@ -6,9 +6,7 @@ import './RightPanel.css'
 function RightPanel() {
   return (
     <div className='right-panel'>
-
         <Updates />
-
         <CustomerReviews />
     </div>
   )

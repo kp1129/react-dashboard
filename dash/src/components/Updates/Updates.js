@@ -6,6 +6,7 @@ import { UpdatesData } from '../../data/Data';
 function Updates() {
   return (
     <div className='updates'>
+        <h2>Customer Updates</h2>
         { UpdatesData.map( update => (
             <div className='update'>
                 <img alt="" src={update.img} />

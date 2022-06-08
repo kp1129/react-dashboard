@@ -14,10 +14,12 @@ function createData(name, trackingId, date, status) {
 }
   
 const rows = [
-    createData("Oculus: Meta Quest 2", 18908424, "2 March 2022", "Approved"),
-    createData("Samsung Galaxy Watch4 ", 18908424, "2 March 2022", "Pending"),
-    createData("Apple watchOS9", 18908424, "2 March 2022", "Approved"),
-    createData("Samsung 85\" QN900A Neo QLED 8K", 18908421, "2 March 2022", "Delivered"),
+    createData("Oculus: Meta Quest 2", 18908424, "8 June 2022", "Approved"),
+    createData("Samsung Galaxy Watch4 ", 18908424, "8 June 2022", "Pending"),
+    createData("Apple watchOS9", 18908424, "8 June 2022", "Approved"),
+    createData("Samsung 85\" QN900A Neo QLED 8K", 18908421, "8 June 2022", "Delivered"),
+    createData("Oculus: Meta Quest 2", 18908447, "8 June 2022", "Pending"),
+    createData("Samsung Galaxy Watch4 ", 18908451, "8 June 2022", "Approved"),
 ];
 
 // custom table background styles for at-a-glance status update
