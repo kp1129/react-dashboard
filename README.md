@@ -1,6 +1,6 @@
 # react-dashboard
 
-A sample dashboard that allows the user (store owner) to track orders, sales, revenue, expenses, and customer reviews.  
+A dashboard that allows the user (store owner) to track orders, sales, revenue, expenses, and customer reviews.  
 [Live preview](https://react-dashboard-gamma.vercel.app/) 🎉 
 
 
@@ -10,3 +10,5 @@ A sample dashboard that allows the user (store owner) to track orders, sales, re
 * Apexcharts
 * Material UI
 * Iconscout
+* Flexbox, CSS grid
+* media queries for web responsiveness
