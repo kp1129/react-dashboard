@@ -113,3 +113,24 @@
         height:auto;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .compact-card {
+        max-width: 100%;
+    }
+    .expanded-card {
+        top: 3rem;
+        left: 5vw;
+        width: 90vw;
+    }
+
+    .expanded-card>span:first-of-type {
+        font-size: 1.25rem;
+    }
+    .expanded-card>span:last-of-type {
+        font-size: 1rem;
+    }
+    .expanded-chart {
+        width: 90%;
+    }
+}

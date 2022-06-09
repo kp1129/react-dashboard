@@ -55,7 +55,7 @@ h3 {
     flex-direction: column;
     width: 98vw;
     border-radius: 0;
-    height: 100%;
+    height: 98%;
   }
   .app-glass-wrapper::-webkit-scrollbar {
     display: none;
