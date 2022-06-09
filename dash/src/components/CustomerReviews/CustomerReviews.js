@@ -116,7 +116,7 @@ function CustomerReviews() {
         series={series} 
         options={options}
         />
-        <h3>Score buckets in the past 24 hours</h3>
+        <h3>Review Score types in the past 24 hours</h3>
         <Chart 
         type="bar"
         series={barChartSeries} 

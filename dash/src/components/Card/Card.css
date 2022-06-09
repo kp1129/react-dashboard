@@ -1,13 +1,14 @@
 .compact-card {
     display: flex;
-    /* flex: 1; */
+    flex: 1;
     height: 15rem !important;
-    width: 30rem;
+    max-width: 27rem;
     border-radius: 0.7rem;
     color: #fff;
     position: relative;
     cursor: pointer;
-    padding: 2rem 4rem;
+    padding: 2rem;
+    gap: 1rem;
 }
 
 .compact-card:hover {
@@ -55,7 +56,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-   
 }
 
 .card-info>span:nth-child(2) {

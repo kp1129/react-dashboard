@@ -8,16 +8,13 @@ function Updates() {
     <div className='updates'>
         <h2>Customer Updates</h2>
         { UpdatesData.map( update => (
-            <div className='update'>
+            <div key={update.id} className='update'>
                 <img alt="" src={update.img} />
                 <div className='noti'>
                     <span>{update.name}</span>
                     <span>{update.noti}</span>
                     <span>{update.time}</span>
                 </div> 
-                {/* <div className='update-time'>
-                    <span>{update.time}</span>
-                </div>    */}
             </div>
         ))}
     </div>

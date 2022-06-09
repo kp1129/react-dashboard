@@ -15,9 +15,9 @@ function createData(name, trackingId, date, status) {
   
 const rows = [
     createData("Oculus: Meta Quest 2", 18908424, "8 June 2022", "Approved"),
-    createData("Samsung Galaxy Watch4 ", 18908424, "8 June 2022", "Pending"),
-    createData("Apple watchOS9", 18908424, "8 June 2022", "Approved"),
-    createData("Samsung 85\" QN900A Neo QLED 8K", 18908421, "8 June 2022", "Delivered"),
+    createData("Samsung Galaxy Watch4 ", 18908425, "8 June 2022", "Pending"),
+    createData("Apple watchOS9", 18908426, "8 June 2022", "Approved"),
+    createData("Samsung 85\" QN900A Neo QLED 8K", 18908427, "8 June 2022", "Delivered"),
     createData("Oculus: Meta Quest 2", 18908447, "8 June 2022", "Pending"),
     createData("Samsung Galaxy Watch4 ", 18908451, "8 June 2022", "Approved"),
 ];
@@ -63,7 +63,7 @@ export default function BasicTable() {
                 <TableBody>
                     {rows.map((row) => (
                     <TableRow
-                    key={row.name}
+                    key={row.trackingId}
                     sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
                     >
                         <TableCell component="th" scope="row">

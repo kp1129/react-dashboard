@@ -27,7 +27,7 @@ function Sidebar() {
                 return (
                     <div onClick={() => setSelected(index)}
                     className={selected === index ? "menu-item active" : "menu-item"} 
-                    key={item.heading}>
+                    key={`${item.heading}-${index}`}>
                         <div>
                             <MenuItemIcon />
                         </div>

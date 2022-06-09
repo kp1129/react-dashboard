@@ -92,17 +92,20 @@ export const UpdatesData = [
       name: "Andrew Pinkman",
       noti: "has ordered 85\" Class QN90A Samsung Neo QLED 4K Smart TV.",
       time: "25 seconds ago",
+      id: "c5f4095c-d707-41f4-bf90-c5db5a0beba3"
     },
     {
       img: img2,
       name: "James Schmidt",
       noti: "has received M2 MacBook Pro 13\"",
       time: "30 minutes ago",
+      id: "6611fc13-c4ac-432e-8c41-cc0947bd390c"
     },
     {
       img: img3,
       name: "Irene Wolf",
       noti: "has ordered Apple watchOS9, Samsung Gear 2500mh battery.",
       time: "2 hours ago",
+      id: "0131c38a-4fd8-4de3-b995-26a487afe84e"
     },
   ];
