@@ -26,9 +26,3 @@
     display: block;
     color: rgb(193, 190, 190);
 }
-
-@media screen and (max-width: 1200px) {
-    .updates {
-        display: none;
-    }   
-}

@@ -105,7 +105,8 @@
 
 @media screen and (max-width: 1200px) {
     .compact-card {
-        max-width: 100%;
+        max-width: 80%;
+        margin-left: 10%;
     }
     .expanded-card {
         top: 3rem;
@@ -116,7 +117,8 @@
 
 @media screen and (max-width: 768px) {
     .compact-card {
-        max-width: 100%;
+        max-width: 90%;
+        margin-left: 5%;
     }
     .expanded-card {
         top: 3rem;

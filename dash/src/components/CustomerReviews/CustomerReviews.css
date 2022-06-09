@@ -2,12 +2,9 @@
     margin-top: 2rem;
 }
 
-@media screen and (max-width: 1200px) {
-    .customer-reviews>h3:last-of-type {
-        display: none;
-    }
-
-    .customer-reviews>div:last-of-type {
-        display: none;
+@media screen and (max-width: 768px) {
+    .customer-reviews {
+        width: 90vw;
+        margin: 0 auto;
     }
 }

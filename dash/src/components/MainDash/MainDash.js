@@ -1,6 +1,6 @@
 import React from 'react'
 import CardContainer from '../CardContainer/CardContainer'
-import Table from '../Table/Table'
+import RecentOrders from '../RecentOrders/RecentOrders'
 import './MainDash.css'
 
 function MainDash() {
@@ -10,7 +10,7 @@ function MainDash() {
         <CardContainer />
 
         {/* recent orders */}
-        <Table />
+        <RecentOrders />
     </div>
   )
 }

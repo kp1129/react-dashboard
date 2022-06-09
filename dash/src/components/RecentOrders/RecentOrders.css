@@ -7,16 +7,16 @@
     font-size: 1.25rem;
 }
 
-.table td, th {
+.recent-orders td, th {
     border-bottom: 1px dashed rgb(234, 234, 234) !important;
     font-size: 1.3rem !important;
 }
 
-.table>h2 {
+.recent-orders>h2 {
     margin: 1.5rem 0;
 }
 
-.table:first-child {
+.recent-orders:first-child {
     border-radius: 0.7rem !important;
 }
 
@@ -29,12 +29,17 @@
     .MuiTableRow-root>* {
         padding: 0.75rem 0.2 !important;
     }
-    .table {
-        width: 90vw;
-    }
 
-    .table td, th {
-        font-size: 0.9rem !important;
+
+    .recent-orders td, th {
+        font-size: 1rem !important;
         width: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .recent-orders {
+        margin: 0 auto;
+        height: 100% !important; 
     }
 }

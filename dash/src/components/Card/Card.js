@@ -21,7 +21,7 @@ function Card(props) {
 }
 
 // Expanded Card
-function ExpandedCard({ png, series, value, barValue, title, color, setExpanded }) {
+function ExpandedCard({ series, title, color, setExpanded }) {
 
     const options = {
         chart: {

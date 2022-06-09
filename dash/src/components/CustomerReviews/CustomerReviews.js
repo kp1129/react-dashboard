@@ -103,8 +103,6 @@ function CustomerReviews() {
         toolbar:{
             show: false
         }
-       
-      
     }
 
   return (
