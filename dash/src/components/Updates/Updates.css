@@ -1,6 +1,5 @@
 .update {
     margin: 0.5rem 0;
-    /* width: 85%; */
     background: #fff;
     border-radius: 0.7rem;
     padding: 1rem;
@@ -26,4 +25,10 @@
 .noti span:last-child {
     display: block;
     color: rgb(193, 190, 190);
+}
+
+@media screen and (max-width: 1200px) {
+    .updates {
+        display: none;
+    }   
 }

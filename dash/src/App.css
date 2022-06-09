@@ -38,3 +38,24 @@ h3 {
   font-size: 1.5rem;
   margin: 0.5rem 0;
 }
+
+@media screen and (max-width: 1200px) {
+  .app-glass-wrapper {
+    grid-template-columns: 10% 50% auto;
+    overflow-y: scroll;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app {
+    width: 100vw;
+  }
+  .app-glass-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 98vw;
+  }
+  .app-glass-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+}

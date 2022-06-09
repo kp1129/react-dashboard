@@ -3,5 +3,5 @@
     display: flex;
     flex-direction: column;
     padding-top: 2rem;
-    /* justify-content: space-evenly; */
+    margin-bottom: 2rem;
 }

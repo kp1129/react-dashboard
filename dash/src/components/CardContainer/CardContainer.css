@@ -4,3 +4,9 @@
     gap: 1rem;
     width: 100%;
 }
+
+@media screen and (max-width: 1200px) {
+    .card-container {
+      flex-direction: column;
+    }
+  }

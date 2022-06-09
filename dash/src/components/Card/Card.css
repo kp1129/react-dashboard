@@ -102,3 +102,14 @@
 .expanded-chart {
     width: 60%;
 }
+
+@media screen and (max-width: 1200px) {
+    .compact-card {
+        max-width: 100%;
+    }
+    .expanded-card {
+        top: 3rem;
+        width: 80vw;
+        height:auto;
+    }
+}

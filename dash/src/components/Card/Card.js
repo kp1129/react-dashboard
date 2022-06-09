@@ -38,7 +38,7 @@ function ExpandedCard({ png, series, value, barValue, title, color, setExpanded 
             opacity: 0.35
         },
         fill: {
-            colors: ["fff"],
+            colors: ["#fff"],
             type: "gradient",
         },
         dataLabels: {
@@ -46,7 +46,7 @@ function ExpandedCard({ png, series, value, barValue, title, color, setExpanded 
         },
         stroke: {
             curve: "smooth",
-            colors: ["fff"],
+            colors: ["#fff"],
         },
         tooltip: {
             x: {
